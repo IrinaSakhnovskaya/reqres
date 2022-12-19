@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "38cf6e05-6aaf-472f-91be-01c55f6378ec",
+		"name": "reqres",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "23233405-38cf6e05-6aaf-472f-91be-01c55f6378ec"
+	},
+	"item": [
+		{
+			"name": "fetches a user list",
+			"id": "7c72eb2c-0e4e-48d4-9b45-5f6aab02ae55",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "f14f88f1-34df-4a9a-952f-dffd2b861691",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3067a73d-957a-4d9f-80d6-30480cc780d6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "f1eb22ca-691a-4d04-8d09-158bb5245bff",
+			"key": "url",
+			"value": "https://reqres.in/api",
+			"type": "string"
+		}
+	]
+}
